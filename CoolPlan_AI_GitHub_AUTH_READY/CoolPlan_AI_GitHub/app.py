@@ -42,7 +42,7 @@ boundary_editor_component = components.declare_component(
     "coolplan_boundary_editor",
     path=str(BASE_DIR / "boundary_editor"),
 )
-TEST_BOUNDARY = BASE_DIR / "data" / "uet_narowal_campus_boundary.geojson")
+TEST_BOUNDARY = BASE_DIR / "data" / "uet_narowal_campus_boundary.geojson"
 GRID_SIZE_M = 100
 
 st.markdown(
