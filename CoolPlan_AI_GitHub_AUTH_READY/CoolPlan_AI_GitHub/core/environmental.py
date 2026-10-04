@@ -16,8 +16,9 @@ def initialize_earth_engine(project_id=PROJECT_ID):
         secret_info = dict(st.secrets["gee_service_account"])
 
         credentials = service_account.Credentials.from_service_account_info(
-            secret_info
-        )
+    secret_info,
+    scopes=["https://www.googleapis.com/auth/cloud-platform"],
+)
 
         ee.Initialize(
             credentials=credentials,
