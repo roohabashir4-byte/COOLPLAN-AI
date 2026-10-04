@@ -8,16 +8,26 @@ def initialize_earth_engine(project_id=PROJECT_ID):
         import streamlit as st
         from google.oauth2 import service_account
 
-        if "gee_service_account" in st.secrets:
-            secret_info = dict(st.secrets["gee_service_account"])
-            credentials = service_account.Credentials.from_service_account_info(
-                secret_info
+        if "gee_service_account" not in st.secrets:
+            raise RuntimeError(
+                "The [gee_service_account] section was not found in Streamlit Secrets."
             )
-            ee.Initialize(credentials=credentials, project=project_id)
-            return
+
+        secret_info = dict(st.secrets["gee_service_account"])
+
+        credentials = service_account.Credentials.from_service_account_info(
+            secret_info
+        )
+
+        ee.Initialize(
+            credentials=credentials,
+            project=project_id,
+        )
 
     except Exception as exc:
-    raise RuntimeError(f"Earth Engine Secrets authentication failed: {exc}") from exc
+        raise RuntimeError(
+            f"Earth Engine Streamlit authentication failed: {exc}"
+        ) from exc
 
     ee.Initialize(project=project_id)
 
