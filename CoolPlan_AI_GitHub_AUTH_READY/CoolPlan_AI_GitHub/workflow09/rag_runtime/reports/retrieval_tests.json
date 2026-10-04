@@ -1,0 +1,157 @@
+[
+  {
+    "query": "tree shade and evapotranspiration",
+    "expected_category": "Trees and Vegetation",
+    "top_3": [
+      {
+        "score": 0.6647628545761108,
+        "chunk_id": "f8d58a6458cf77a8-p006-c001",
+        "source_title": "Trees and Vegetation",
+        "page_number": 6,
+        "section_heading": "Trees and Vegetation",
+        "preview": "processes are referred to as evapotranspi ration. Evapotranspiration cools the air by using heat from the air to evaporate water. Evapotranspiration, alone or in combina tion with shading, can help reduce peak summer air temperatures. Various studies8,9 have measured the following reductions: • Peak air temperatures in tree groves that are 9ºF (5ºC"
+      },
+      {
+        "score": 0.6510360240936279,
+        "chunk_id": "f8d58a6458cf77a8-p005-c001",
+        "source_title": "Trees and Vegetation",
+        "page_number": 5,
+        "section_heading": "Trees and Vegetation",
+        "preview": "Trees and vegetation help cool urban climates through shading and evapotranspiration. Shading. Leaves and branches reduce the amount of solar radiation that reaches the area below the canopy of a tree or plant. The amount of sunlight transmitted through the canopy varies based on plant species. In the summertime, generally 10 to 30 percent of the s"
+      },
+      {
+        "score": 0.649334728717804,
+        "chunk_id": "f8d58a6458cf77a8-p006-c002",
+        "source_title": "Trees and Vegetation",
+        "page_number": 6,
+        "section_heading": "Trees and Vegetation",
+        "preview": "a gas, also occurs from the soil around vegetation and from trees and vegetation as they intercept rainfall on leaves and other surfaces. Together, these Evapotranspiration Evapotranspiration Trees and other large vegetation can also serve as windbreaks or wind shields to reduce the wind speed in the vicinity of buildings. In the summertime, the im"
+      }
+    ],
+    "expected_category_in_top_3": true
+  },
+  {
+    "query": "green roof vegetation growing medium structural considerations",
+    "expected_category": "Green Roofs",
+    "top_3": [
+      {
+        "score": 0.7142924070358276,
+        "chunk_id": "8111c048fcb241ae-p018-c001",
+        "source_title": "Green Roofs",
+        "page_number": 18,
+        "section_heading": "Green Roofs",
+        "preview": "Karen Liu/National Research Council of Canada roofs use up to roughly 6 inches (15 cm) of growing medium51 while inten sive green roofs use 8 inches (20 cm) or more.52 in a wide variety of sizes, textures, and colors. Building owners also can ensure that the selected plants suit USDA plant hardiness zones for their area.49 – Intensive green roofs h"
+      },
+      {
+        "score": 0.7105491161346436,
+        "chunk_id": "8111c048fcb241ae-p017-c001",
+        "source_title": "Green Roofs",
+        "page_number": 17,
+        "section_heading": "Green Roofs",
+        "preview": "County, Virginia, office building have high lighted the ease of replacing stone-ballast on existing roofs with vegetative layers.47 The Green Roof Continuum 4.2 Installation and Maintenance Whether extensive, intensive, or some where in between, green roofs generally consist of the same basic components.48 From the top layer down (see Figure 12), t"
+      },
+      {
+        "score": 0.6899374723434448,
+        "chunk_id": "8111c048fcb241ae-p007-c002",
+        "source_title": "Green Roofs",
+        "page_number": 7,
+        "section_heading": "Green Roofs",
+        "preview": "weight extensive green roof system, plant selections typi cally include sedums—succulent, hardy plants—and other vegetation generally suit able for an alpine environment. The con cept is to design a rugged green roof that needs little maintenance or human interven tion once it is established. Plants adapted to extreme climates often make good choic"
+      }
+    ],
+    "expected_category_in_top_3": true
+  },
+  {
+    "query": "cool roof reflectance and roof surface temperature",
+    "expected_category": "Cool Roofs",
+    "top_3": [
+      {
+        "score": 0.7940751910209656,
+        "chunk_id": "95a75724e20b46dd-p007-c001",
+        "source_title": "Cool Roofs",
+        "page_number": 7,
+        "section_heading": "Cool Roofs",
+        "preview": "Figure 4: Temperature of Conventional 1.4 Temperature Effects Roofing Solar reflectance and thermal emittance have noticeable effects on surface temperature. Figure 5 illustrates these differences us ing three different roof types. Conventional ASU National Center of Excellence The left half of this traditional bitumen roof in Arizona is shown in v"
+      },
+      {
+        "score": 0.7540450096130371,
+        "chunk_id": "95a75724e20b46dd-p006-c001",
+        "source_title": "Cool Roofs",
+        "page_number": 6,
+        "section_heading": "Cool Roofs",
+        "preview": "Many cool roof products are bright white. These products get their high solar reflectance primarily from reflecting in the visible portion of the spectrum depicted in Figure 2. Given the desire for colored roof products for many buildings, such as the typical single family home, manu facturers are continuing to develop cool colored products that re"
+      },
+      {
+        "score": 0.7044206857681274,
+        "chunk_id": "95a75724e20b46dd-p007-c002",
+        "source_title": "Cool Roofs",
+        "page_number": 7,
+        "section_heading": "Cool Roofs",
+        "preview": "90 percent of the heat it absorbs can reach 180°F (82°C). A metal roof will reflect the majority of the sun’s energy while releasing about a fourth of the heat that it absorbs and can warm to 160°F (71°C). A cool roof will reflect and emit the majority of the sun’s energy and reach a peak temperature of 120°F (49°C). REDUCING URBAN HEAT ISLANDS – D"
+      }
+    ],
+    "expected_category_in_top_3": true
+  },
+  {
+    "query": "cool pavement albedo permeability and maintenance",
+    "expected_category": "Cool Pavements",
+    "top_3": [
+      {
+        "score": 0.7582147121429443,
+        "chunk_id": "367c18e0410229ba-p005-c001",
+        "source_title": "Cool Pavements",
+        "page_number": 5,
+        "section_heading": "Cool Pavements",
+        "preview": "National Center of Excellence on SMART Innova tions at Arizona State University This picture of Phoenix, Arizona, in the summer shows a variety of conventional pavements that reached temperatures up to 150°F (67°C). Defining Cool Pavements Unlike a “cool” roof, a “cool” pavement has no standard, official definition. Until recently, the term has mai"
+      },
+      {
+        "score": 0.751835823059082,
+        "chunk_id": "367c18e0410229ba-p008-c002",
+        "source_title": "Cool Pavements",
+        "page_number": 8,
+        "section_heading": "Cool Pavements",
+        "preview": "or albedo, is the per centage of solar energy reflected by a surface. Most research on cool pavements has focused on this property, and it is the main determinant of a material’s maximum surface temperature.6 Albedo also affects pavement temperatures below the surface, because less heat is available at the sur face to then be transferred into the p"
+      },
+      {
+        "score": 0.7400076389312744,
+        "chunk_id": "367c18e0410229ba-p012-c002",
+        "source_title": "Cool Pavements",
+        "page_number": 12,
+        "section_heading": "Cool Pavements",
+        "preview": "needed to better under stand the impacts of permeable pavement on air temperatures and urban heat island conditions. Given the complexity of these cooling mechanisms, and the wide range of conditions under which these pavements function, further field testing and valida tion would help to quantify and clarify the range of impacts and benefits of pe"
+      }
+    ],
+    "expected_category_in_top_3": true
+  },
+  {
+    "query": "urban heat island causes and surface temperature",
+    "expected_category": "Urban Heat Island Basics",
+    "top_3": [
+      {
+        "score": 0.8704490661621094,
+        "chunk_id": "f5c0c11feab7f5cc-p004-c001",
+        "source_title": "Urban Heat Island Basics",
+        "page_number": 4,
+        "section_heading": "Urban Heat Island Basics",
+        "preview": "As urban areas develop, changes occur in the landscape. Buildings, roads, and other infrastructure replace open land and vegetation. Surfaces that were once permeable and moist generally become impermeable and dry.* This development leads to the formation of urban heat islands—the phenomenon whereby urban regions experience warmer temperatures than"
+      },
+      {
+        "score": 0.7850574254989624,
+        "chunk_id": "f5c0c11feab7f5cc-p016-c002",
+        "source_title": "Urban Heat Island Basics",
+        "page_number": 16,
+        "section_heading": "Air Temperature Heat Island Intensity Time",
+        "preview": "city, or create wind patterns that pass through a city. Local terrain has a greater signifi cance for heat island formation when larger-scale effects, such as prevailing wind patterns, are relatively weak. 3. Why Do We Care about Urban Heat Islands? Elevated temperatures from urban heat islands, particularly during the summer, can affect a communit"
+      },
+      {
+        "score": 0.7782344818115234,
+        "chunk_id": "f5c0c11feab7f5cc-p009-c001",
+        "source_title": "Urban Heat Island Basics",
+        "page_number": 9,
+        "section_heading": "Air Temperature Heat Island Intensity Time",
+        "preview": "Urban Heat Islands, Climate Change, and Global Warming in preferred use to ‘global warming’ because it helps convey that there are [other] changes in addition to rising temperatures.” Urban heat islands refer to the elevated temperatures in developed areas compared to more rural surroundings. Urban heat islands are caused by development and the cha"
+      }
+    ],
+    "expected_category_in_top_3": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "source_zip": "/content/CoolPlan_Workflow_09_COMPLETE_20261002_063431.zip",
+  "destination": "/content/Integrated_App/_integration_staging/workflow_09/stage4",
+  "copied_files": [
+    "design_constraints.py",
+    "constraint_mapper.py",
+    "assessment_queue.py",
+    "scoring_adapter.py",
+    "coolplan_suitability_scorer_v2.py",
+    "workflow09_agent.py",
+    "workflow09_orchestrator.py",
+    "workflow09_api_client.py",
+    "workflow09_rag_retriever.py"
+  ],
+  "app_py_modified": false,
+  "source_workflow09_modified": false
+}

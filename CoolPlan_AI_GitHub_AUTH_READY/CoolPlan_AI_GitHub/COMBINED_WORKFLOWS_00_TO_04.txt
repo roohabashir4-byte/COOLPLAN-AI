@@ -1,0 +1,5 @@
+Combined package assembled from the supplied ZIPs.
+Base project: CoolPlan_AI_Final (2).zip
+Added Workflow 03 tested zone module and test files.
+Added Workflow 04 tested CAD module and test files.
+Existing project files were preserved; existing files were not overwritten.

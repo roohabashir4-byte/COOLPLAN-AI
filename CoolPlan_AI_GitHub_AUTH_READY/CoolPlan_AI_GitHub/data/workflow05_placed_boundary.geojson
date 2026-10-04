@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "Workflow 05 survey DXF",
+        "layer": "BOUNDARY",
+        "handle": "1D55",
+        "candidate_count": 2,
+        "placement": {
+          "center_longitude": 74.8410898,
+          "center_latitude": 32.1095103,
+          "scale_m_per_unit": 0.3048,
+          "rotation_degrees": 0.0,
+          "status": "approximate_manual_placement"
+        },
+        "projected_crs": "EPSG:32643"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.84009264574865,
+              32.109892529112116
+            ],
+            [
+              74.84010139358726,
+              32.10984916699154
+            ],
+            [
+              74.83946476470244,
+              32.1097550863963
+            ],
+            [
+              74.84010549946396,
+              32.1065843856931
+            ],
+            [
+              74.84424931624645,
+              32.10716644983512
+            ],
+            [
+              74.84331635155124,
+              32.11186382299142
+            ],
+            [
+              74.84059524994493,
+              32.11097597183861
+            ],
+            [
+              74.84079316476668,
+              32.10999490300598
+            ],
+            [
+              74.84009264574865,
+              32.109892529112116
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

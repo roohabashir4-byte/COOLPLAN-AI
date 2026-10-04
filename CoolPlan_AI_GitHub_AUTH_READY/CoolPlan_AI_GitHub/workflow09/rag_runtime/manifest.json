@@ -1,0 +1,82 @@
+{
+  "project": "CoolPlan AI Intervention RAG",
+  "builder_version": "complete_v4",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "vector_index": "FAISS IndexFlatIP with normalized embeddings (cosine similarity)",
+  "embedding_dimension": 384,
+  "chunk_count": 224,
+  "chunks_by_category": {
+    "Urban Heat Island Basics": 30,
+    "Trees and Vegetation": 43,
+    "Green Roofs": 45,
+    "Cool Roofs": 50,
+    "Cool Pavements": 56
+  },
+  "chunk_words_target": 320,
+  "overlap_words_target": 60,
+  "source_count": 5,
+  "source_documents": [
+    {
+      "source_id": "f5c0c11feab7f5cc",
+      "source_filename": "reducing_urban_heat_islands_ch_1.pdf",
+      "source_title": "Urban Heat Island Basics",
+      "publisher": "U.S. Environmental Protection Agency",
+      "publication_year": 2008,
+      "source_url": "https://www.epa.gov/heat-islands/heat-island-compendium",
+      "sha256": "f5c0c11feab7f5ccc9c4d8ed9f896a4a08f655c724ef17757bba964f369306a8",
+      "original_filename": "reducing_urban_heat_islands_ch_1.pdf",
+      "pdf_pages": 22
+    },
+    {
+      "source_id": "f8d58a6458cf77a8",
+      "source_filename": "reducing_urban_heat_islands_ch_2.pdf",
+      "source_title": "Trees and Vegetation",
+      "publisher": "U.S. Environmental Protection Agency",
+      "publication_year": 2008,
+      "source_url": "https://www.epa.gov/heat-islands/heat-island-compendium",
+      "sha256": "f8d58a6458cf77a8023141d5ea4a762c14797b32974cd9f8db3fd8b215fddd76",
+      "original_filename": "reducing_urban_heat_islands_ch_2 (1).pdf",
+      "pdf_pages": 32
+    },
+    {
+      "source_id": "8111c048fcb241ae",
+      "source_filename": "reducing_urban_heat_islands_ch_3.pdf",
+      "source_title": "Green Roofs",
+      "publisher": "U.S. Environmental Protection Agency",
+      "publication_year": 2008,
+      "source_url": "https://www.epa.gov/heat-islands/heat-island-compendium",
+      "sha256": "8111c048fcb241aee2f074820f5d68c9c8a7e1305c6125bb1dabab306ca536f8",
+      "original_filename": "reducing_urban_heat_islands_ch_3 (1).pdf",
+      "pdf_pages": 29
+    },
+    {
+      "source_id": "95a75724e20b46dd",
+      "source_filename": "reducing_urban_heat_islands_ch_4.pdf",
+      "source_title": "Cool Roofs",
+      "publisher": "U.S. Environmental Protection Agency",
+      "publication_year": 2008,
+      "source_url": "https://www.epa.gov/heat-islands/heat-island-compendium",
+      "sha256": "95a75724e20b46dda6e7b6a5f54ce84f0891a178de899b2614a8617a271660e1",
+      "original_filename": "reducing_urban_heat_islands_ch_4 (2).pdf",
+      "pdf_pages": 31
+    },
+    {
+      "source_id": "367c18e0410229ba",
+      "source_filename": "reducing_urban_heat_islands_ch_5.pdf",
+      "source_title": "Cool Pavements",
+      "publisher": "U.S. Environmental Protection Agency",
+      "publication_year": 2008,
+      "source_url": "https://www.epa.gov/heat-islands/heat-island-compendium",
+      "sha256": "367c18e0410229ba51873c9dd3a1e6c284b9c074119ac9d882937d03f88fac99",
+      "original_filename": "reducing_urban_heat_islands_ch_5 (2).pdf",
+      "pdf_pages": 40
+    }
+  ],
+  "retrieval_smoke_tests": 5,
+  "quality_warning_count": 0,
+  "limitations": [
+    "Text extraction is heuristic; visually inspect tables/complex figures before production use.",
+    "Source evidence is primarily U.S.-based and is not automatically validated for Pakistan.",
+    "The index is a retrieval aid, not a substitute for engineering checks or local criteria."
+  ]
+}
