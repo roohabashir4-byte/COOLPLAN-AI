@@ -30,8 +30,7 @@ def initialize_earth_engine(project_id=PROJECT_ID):
             f"Earth Engine Streamlit authentication failed: {exc}"
         ) from exc
 
-    ee.Initialize(project=project_id)
-
+   
 def create_point(latitude, longitude):
     return ee.Geometry.Point([longitude, latitude])
 
