@@ -16,10 +16,8 @@ def initialize_earth_engine(project_id=PROJECT_ID):
             ee.Initialize(credentials=credentials, project=project_id)
             return
 
-    except Exception:
-        # If Streamlit Secrets are not available, preserve the existing
-        # local/Colab authentication behavior below.
-        pass
+    except Exception as exc:
+    raise RuntimeError(f"Earth Engine Secrets authentication failed: {exc}") from exc
 
     ee.Initialize(project=project_id)
 
