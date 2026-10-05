@@ -35,8 +35,9 @@ from workflow09.workflow09_orchestrator import (
 # Default RAG location
 # ---------------------------------------------------------------------
 
-DEFAULT_RAG_DIR = Path(
-    "/content/Integrated_App/Integrated_App/workflow09/rag_runtime"
+DEFAULT_RAG_DIR = (
+    Path(__file__).resolve().parent
+    / "rag_runtime"
 )
 
 
