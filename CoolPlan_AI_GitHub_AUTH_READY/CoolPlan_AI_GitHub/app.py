@@ -2559,12 +2559,10 @@ else:
                         design_selections=(
                             _cp_stage5_design_selections
                         ),
-                        rag_dir=(
-                            Path(
-                                "/content/Integrated_App/"
-                                "Integrated_App/workflow09/rag_runtime"
-                            )
-                        ),
+rag_dir=(
+    Path(__file__).resolve().parent
+    / "rag_runtime"
+),
                         top_k=3,
                         max_output_tokens=500,
                     )
