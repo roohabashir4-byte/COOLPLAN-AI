@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    html, body, #map { height: 100%; width: 100%; margin: 0; padding: 0; }
+    #hint { position:absolute; z-index:1000; top:10px; left:50px;
+      background:white; padding:7px 10px; border-radius:4px;
+      font:14px sans-serif; box-shadow:0 1px 5px #777; }
+    #map { cursor: grab; }
+    .leaflet-interactive { cursor: move; }
+  </style>
+</head>
+<body>
+  <div id="hint">Drag the cyan boundary itself to move it</div>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+  (function () {
+    let map = null, polygon = null, lastSignature = null;
+    let dragState = null;
+    function post(type, extra) {
+      window.parent.postMessage(
+        Object.assign({isStreamlitMessage: true, type: type}, extra || {}), "*");
+    }
+    function cleanPoints() {
+      const points = polygon.getLatLngs()[0].map(p => [p.lat, p.lng]);
+      if (points.length > 1 &&
+          Math.abs(points[0][0] - points[points.length - 1][0]) < 1e-12 &&
+          Math.abs(points[0][1] - points[points.length - 1][1]) < 1e-12) points.pop();
+      return points;
+    }
+    function finishDrag() {
+      if (!dragState) return;
+      dragState = null;
+      map.dragging.enable();
+      map.getContainer().style.cursor = 'grab';
+      post("streamlit:setComponentValue", {value: {coordinates: cleanPoints()}});
+    }
+    function init(args) {
+      const center = args.center || [32.0924562, 74.7580475];
+      const coords = args.coordinates || [];
+      const signature = JSON.stringify(coords);
+      if (!map) {
+        map = L.map("map", {preferCanvas: false}).setView(center, 16);
+        L.tileLayer(
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          {attribution: "Esri World Imagery", maxZoom: 19}
+        ).addTo(map);
+        map.on('mousemove', function (e) {
+          if (!dragState) return;
+          const dLat = e.latlng.lat - dragState.start.lat;
+          const dLng = e.latlng.lng - dragState.start.lng;
+          polygon.setLatLngs(dragState.original.map(p => [p.lat + dLat, p.lng + dLng]));
+        });
+        map.on('mouseup', finishDrag);
+        window.addEventListener('mouseup', finishDrag);
+      }
+      if (!polygon || signature !== lastSignature) {
+        if (polygon) map.removeLayer(polygon);
+        polygon = L.polygon(coords, {
+          color: "#00FFFF", weight: 4, fillColor: "#00FFFF", fillOpacity: 0.18,
+          bubblingMouseEvents: false
+        }).addTo(map);
+        lastSignature = signature;
+        polygon.on('mousedown', function (e) {
+          if (e.originalEvent) {
+            e.originalEvent.preventDefault();
+            e.originalEvent.stopPropagation();
+          }
+          dragState = {
+            start: e.latlng,
+            original: polygon.getLatLngs()[0].map(p => L.latLng(p.lat, p.lng))
+          };
+          map.dragging.disable();
+          map.getContainer().style.cursor = 'grabbing';
+        });
+        map.fitBounds(polygon.getBounds(), {padding: [20, 20]});
+      }
+      setTimeout(() => map.invalidateSize(), 100);
+      post("streamlit:setFrameHeight", {height: 680});
+    }
+    window.addEventListener("message", function (event) {
+      const msg = event.data || {};
+      if (msg.type === "streamlit:render") init(msg.args || {});
+    });
+    post("streamlit:componentReady", {apiVersion: 1});
+    post("streamlit:setFrameHeight", {height: 680});
+  })();
+  </script>
+</body>
+</html>
