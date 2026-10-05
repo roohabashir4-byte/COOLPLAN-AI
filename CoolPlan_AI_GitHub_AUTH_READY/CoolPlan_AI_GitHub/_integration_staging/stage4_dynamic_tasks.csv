@@ -1,0 +1,22 @@
+zone_id,intervention,identified_features,HPS,HPS_class
+Z_012,strategic_vegetation,"Open space, Green area or park, Residence",54.393317264048136,High
+Z_012,shade_structure,"Open space, Green area or park, Residence",54.393317264048136,High
+Z_012,permeable_green_infrastructure,"Open space, Green area or park, Residence",54.393317264048136,High
+Z_013,strategic_vegetation,"Open space, Green area or park",43.66386167985912,Moderate
+Z_013,shade_structure,"Open space, Green area or park",43.66386167985912,Moderate
+Z_013,permeable_green_infrastructure,"Open space, Green area or park",43.66386167985912,Moderate
+Z_023,strategic_vegetation,"Open space, Green area or park, Residence",54.17706477305833,High
+Z_023,shade_structure,"Open space, Green area or park, Residence",54.17706477305833,High
+Z_023,permeable_green_infrastructure,"Open space, Green area or park, Residence",54.17706477305833,High
+Z_024,strategic_vegetation,"Open space, Green area or park, Proposed building, Park or garden",39.55583978495786,Moderate
+Z_024,shade_structure,"Open space, Green area or park, Proposed building, Park or garden",39.55583978495786,Moderate
+Z_024,permeable_green_infrastructure,"Open space, Green area or park, Proposed building, Park or garden",39.55583978495786,Moderate
+Z_024,cool_roof,"Open space, Green area or park, Proposed building, Park or garden",39.55583978495786,Moderate
+Z_024,green_roof,"Open space, Green area or park, Proposed building, Park or garden",39.55583978495786,Moderate
+Z_036,strategic_vegetation,Park or garden,36.96900163635151,Moderate
+Z_036,shade_structure,Park or garden,36.96900163635151,Moderate
+Z_036,permeable_green_infrastructure,Park or garden,36.96900163635151,Moderate
+Z_048,cool_roof,"Building, Student hostel",34.57490495760075,Moderate
+Z_048,green_roof,"Building, Student hostel",34.57490495760075,Moderate
+Z_060,cool_roof,"Building, Student hostel",40.171487875234064,Moderate
+Z_060,green_roof,"Building, Student hostel",40.171487875234064,Moderate
