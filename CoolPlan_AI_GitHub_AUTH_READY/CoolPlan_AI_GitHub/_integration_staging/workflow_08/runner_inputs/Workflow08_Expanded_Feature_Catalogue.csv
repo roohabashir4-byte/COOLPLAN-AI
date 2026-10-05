@@ -1,0 +1,67 @@
+feature_group,standard_feature,common_cad_labels,environmental_relevance,potential_interventions
+Buildings,Residential Building,RESIDENTIAL; HOUSE; APARTMENT,Building heat,Cool roofs; shade; trees
+Buildings,Commercial Building,COMMERCIAL; SHOP; OFFICE,Building heat,Cool roofs; shaded access
+Buildings,Mixed-Use Building,MIXED USE; MIXED-USE,Building heat,Cool roofs; shade; green spaces
+Buildings,Institutional Building,INSTITUTION; SCHOOL; COLLEGE,Building heat,Shade trees; cool roofs
+Buildings,Healthcare Building,HOSPITAL; CLINIC,Building heat,Shade; cool roofs
+Buildings,Community Facility,COMMUNITY CENTRE; CLUBHOUSE,Building heat,Shade; landscaping
+Buildings,Religious Building,MOSQUE; MASJID,Building heat,Shade; landscaping
+Buildings,Industrial Building,FACTORY; WAREHOUSE,Roof heat,Cool roofs; suitable shade
+Buildings,Utility Building,UTILITY ROOM; SERVICE BUILDING,Building heat,Cool roofs; compatible shade
+Buildings,Security Building,SECURITY ROOM; GUARD ROOM,Building heat,Cool roofs; shade
+Buildings,Existing Building,EXISTING BUILDING; EX. BUILDING,Existing built-up area,Assess roof and surroundings
+Buildings,Proposed Building,PROPOSED BUILDING; NEW BUILDING,Future built-up area,Heat-conscious site design
+Buildings,Shopping Centre,SHOPPING CENTRE; MALL; MARKET,Building and paved-area heat,Cool roofs; shaded access
+Transport,Road,ROAD; STREET; BOULEVARD; ACCESS ROAD; INTERNAL ROAD,Heat; impervious surfaces,Roadside trees; suitable cool materials
+Transport,Road Median,MEDIAN; CENTRAL MEDIAN,Solar exposure,Suitable planting
+Transport,Roundabout,ROUNDABOUT; TRAFFIC CIRCLE,Exposed paved area,Central planting where safe
+Transport,Traffic Island,TRAFFIC ISLAND,Exposed hard surface,Planting; permeable treatment
+Transport,Footpath / Walkway,FOOTPATH; SIDEWALK; WALKWAY,Pedestrian heat,Shade trees; shaded routes
+Transport,Cycle Track,CYCLE TRACK; BIKE LANE; CYCLEWAY,User heat exposure,Shade; green corridors
+Transport,Driveway,DRIVEWAY; ACCESS DRIVE,Paved-surface heat,Permeable paving; shade
+Transport,Drop-off Area,DROP OFF; PICK UP; DROP-OFF,Heat; vehicle activity,Shade; suitable trees
+Transport,Entrance Gate,MAIN GATE; ENTRANCE GATE; ENTRY GATE,Access-area heat,Shade; landscaping
+Green Space,Garden / Green Space,GARDEN; PARK; GREEN SPACE,Vegetation; cooling,Native trees; planting
+Green Space,Landscape Area,LANDSCAPE; LANDSCAPING,Vegetation; surface cooling,Native planting; shade
+Green Space,Public Park,PUBLIC PARK; COMMUNITY PARK,Vegetation; recreation,Tree canopy; shaded paths
+Green Space,Green Buffer,GREEN BUFFER; LANDSCAPE BUFFER,Heat; separation,Dense planting
+Green Space,Tree Belt,TREE BELT; TREE LINE,Shade; cooling,Native tree planting
+Green Space,Plantation Area,PLANTATION; TREE PLANTATION,Vegetation; cooling,Suitable tree species
+Green Space,Green Corridor,GREEN CORRIDOR; ECOLOGICAL CORRIDOR,Connectivity; cooling,Connected planting
+Green Space,Open Green Space,OPEN SPACE; GREEN OPEN SPACE,Vegetation; heat,Trees; ground cover
+Green Space,Play Lawn,LAWN; GRASS AREA,Surface temperature,Suitable ground cover
+Water and Drainage,Water Body,WATER BODY; POND; LAKE,Water; local cooling,Protect water body
+Water and Drainage,Water Fountain,FOUNTAIN; WATER FOUNTAIN,Water feature; local cooling,Maintain fountain; manage water use
+Water and Drainage,Stormwater Drain,STORM DRAIN; DRAIN; DRAINAGE,Runoff; drainage,Maintain drainage
+Water and Drainage,Open Drain,OPEN DRAIN; SURFACE DRAIN,Runoff; drainage,Improve drainage; maintain access
+Water and Drainage,Rainwater Harvesting,RAINWATER HARVESTING; RWH,Water conservation,Capture and reuse rainwater
+Water and Drainage,Retention Pond,RETENTION POND; DETENTION POND,Stormwater management,Retain runoff; suitable planting
+Parking and Transport,Parking Area,PARKING; PARKING AREA; CAR PARKING; BUS PARKING,Paved-surface heat,Shade; permeable paving
+Parking and Transport,Bus Stop,BUS STOP; BUS BAY,User heat exposure,Shelter; shade
+Parking and Transport,Loading Area,LOADING; LOADING BAY,Paved-surface heat,Shade where feasible
+Parking and Transport,Service Road,SERVICE ROAD; MAINTENANCE ROAD,Heat; impervious surfaces,Suitable roadside planting
+Parking and Transport,Pedestrian Crossing,PEDESTRIAN CROSSING; ZEBRA CROSSING,Pedestrian exposure,Shade nearby; safe crossing
+Recreation,Playground,PLAYGROUND; CHILDREN PLAY AREA,User heat exposure,Shade; trees
+Recreation,Sports Ground,SPORTS GROUND; PLAYING FIELD,Surface heat; user exposure,Shade at edges; suitable surface
+Recreation,Sports Court,SPORTS COURT; TENNIS COURT; BASKETBALL COURT,Exposed hard surface,Shade nearby; suitable materials
+Recreation,Community Open Space,COMMUNITY OPEN SPACE; SOCIAL SPACE,Heat; public use,Trees; shaded seating
+Utilities,Water Tank,WATER TANK; OHT; UGT,Water infrastructure,Assess exposed surfaces
+Utilities,Pump House,PUMP HOUSE; PUMP ROOM,Built-up area,Cool roof; compatible shade
+Utilities,Wastewater Treatment Plant,WWTP; SEWAGE TREATMENT PLANT; STP,Infrastructure; site conditions,Appropriate planting; maintain access
+Utilities,Solid Waste Area,WASTE AREA; GARBAGE AREA; DUMPSTER,Waste management,Shade where appropriate; maintain access
+Utilities,Electrical Substation,SUBSTATION; ELECTRICAL SUBSTATION,Infrastructure; heat exposure,Maintain safety clearances
+Utilities,Transformer,TRANSFORMER; TX,Electrical infrastructure,Maintain safety clearances
+Utilities,Utility Corridor,UTILITY CORRIDOR; SERVICES CORRIDOR,Infrastructure constraints,Compatible planting
+Site Features,Project Boundary,PLOT BOUNDRY; PLOT BOUNDARY; PROJECT BOUNDARY,Defines project extent,Boundary reference
+Site Features,Plot,PLOT; RESIDENTIAL PLOT; COMMERCIAL PLOT,Land-use context,Context-dependent design
+Site Features,Vacant Plot,VACANT PLOT; EMPTY PLOT,Potential future development,Retain or introduce green cover
+Site Features,Construction Area,CONSTRUCTION AREA; SITE WORKS,Temporary disturbance,Dust and surface management
+Site Features,Earthwork Area,EARTHWORK; FILL AREA; CUT AREA,Surface disturbance,Stabilize exposed soil
+Site Features,Slope,SLOPE; EMBANKMENT,Runoff; erosion,Stabilization; suitable planting
+Site Features,Retaining Wall,RETAINING WALL; RET. WALL,Built surface; site constraint,Compatible planting where feasible
+Site Features,Entrance Gate,MAIN GATE; ENTRANCE GATE; ENTRY GATE,Access-area heat,Shade; landscaping
+Site Features,Boundary Wall,BOUNDARY WALL; COMPOUND WALL,Built surface; shade constraint,Compatible planting
+Site Features,Plaza,PLAZA; PUBLIC PLAZA,Exposed paved area,Shade trees; permeable surfaces
+Site Features,Paved Open Area,PAVED AREA; HARDSTANDING,Surface heat; runoff,Shade; permeable treatment
+Site Features,Shaded Seating,SEATING; BENCHES; REST AREA,User heat exposure,Shade; tree canopy
+Buildings,Student Hostel,STUDENT HOSTEL; HOSTEL; FACILITY HOSTEL,Building heat,Cool roofs; shade; trees
