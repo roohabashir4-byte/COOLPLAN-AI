@@ -1183,7 +1183,10 @@ _cp_test_dxf = (
     / "Narowal_Master_Plan_Local_Coordinates_Text_Preserved_No_Dimensions.dxf"
 )
 
-_cp_api_key = _cp_os.environ.get("GROQ_API_KEY", "").strip()
+try:
+    _cp_api_key = str(st.secrets["GROQ_API_KEY"]).strip()
+except Exception:
+    _cp_api_key = _cp_os.environ.get("GROQ_API_KEY", "").strip()
 
 _cp_project_name = str(
     st.session_state.get("project_name", "My Study Area")
