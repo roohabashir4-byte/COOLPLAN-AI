@@ -1,7 +1,0 @@
-streamlit
-streamlit-folium
-folium
-ezdxf
-pyproj
-shapely
-numpy
