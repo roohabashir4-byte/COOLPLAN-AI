@@ -2561,6 +2561,7 @@ else:
                         ),
 rag_dir=(
     Path(__file__).resolve().parent
+    / "workflow09"
     / "rag_runtime"
 ),
                         top_k=3,
