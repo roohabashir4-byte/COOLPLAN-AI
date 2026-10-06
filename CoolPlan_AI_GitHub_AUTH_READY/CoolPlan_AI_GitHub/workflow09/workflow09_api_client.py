@@ -39,12 +39,12 @@ MAX_RETRIES = 1
 REQUEST_TIMEOUT_SECONDS = 30
 
 DEFAULT_CACHE_PATH = Path(
-    "/content/CoolPlan_Constraints_Development/"
+    "/tmp/CoolPlan_Constraints_Development/"
     "workflow09_api_cache.json"
 )
 
 DEFAULT_USAGE_PATH = Path(
-    "/content/CoolPlan_Constraints_Development/"
+    "/tmp/CoolPlan_Constraints_Development/"
     "workflow09_api_usage.json"
 )
 
