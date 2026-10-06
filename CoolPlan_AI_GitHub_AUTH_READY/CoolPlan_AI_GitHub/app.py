@@ -2629,12 +2629,12 @@ rag_dir=(
                 # Save report and raw result in the working folder.
                 # -------------------------------------------------------
 
-_cp_stage5_output_dir = (
-    Path(
-        "/tmp/Integrated_App/"
-        "stage5_reports"
-    )
-)
+                _cp_stage5_output_dir = (
+                    Path(
+                        "/tmp/Integrated_App/"
+                        "stage5_reports"
+                    )
+                )
                 _cp_stage5_output_dir.mkdir(
                     parents=True,
                     exist_ok=True,
